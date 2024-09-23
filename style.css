@@ -1,0 +1,84 @@
+@import url(https://db.onlinewebfonts.com/c/572a2d40c1cb6e1049aa231ee432e834?family=Shne+Breit);
+
+:root {
+	--sb: "Shne Breit";
+	/* Eng */
+	--asea: 'Artegra Sans Extended Alt';
+	/* Rus + Eng */
+}
+
+.from {
+	font-family: var(--asea);
+}
+
+#demo1 {
+	font-family: var(--asea);
+	opacity: 0;
+	animation: fadeIn 4s forwards;
+	animation-delay: 1s;
+}
+
+#demo-i {
+	font-family: var(--asea);
+	opacity: 0;
+	animation: fadeIn 4s forwards;
+	animation-delay: 6s;
+}
+
+#demo2 {
+	font-family: var(--asea);
+	opacity: 0;
+	animation: fadeIn 4s forwards;
+	animation-delay: 7s;
+}
+
+#demo3 {
+	font-family: var(--asea);
+	opacity: 0;
+	animation: fadeIn 4s forwards;
+	animation-delay: 8s;
+}
+
+#demo4 {
+	opacity: 0;
+	animation: fadeIn 4s forwards;
+	animation-delay: 12s;
+}
+
+#cont {
+	display: none;
+}
+
+.show:focus+.hide {
+	display: inline;
+}
+
+.show:focus+.hide+#cont {
+	display: block;
+}
+
+@keyframes moveUpDown {
+	0% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-20px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		/* Полностью прозрачный */
+	}
+
+	100% {
+		opacity: 1;
+		/* Полностью видимый */
+	}
+}
