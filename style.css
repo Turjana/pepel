@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root {
 	--sb: "Shne Breit";
@@ -8,32 +8,32 @@
 }
 
 .from {
-	font-family: "Raleway", sans-serif;
+	font-family: "EB Garamond";
 }
 
 #demo1 {
-	font-family: "Raleway", sans-serif;
+	font-family: "EB Garamond";
 	opacity: 0;
 	animation: fadeIn 4s forwards;
 	animation-delay: 1s;
 }
 
 #demo-i {
-	font-family: "Raleway", sans-serif;
+	font-family: "EB Garamond";
 	opacity: 0;
 	animation: fadeIn 4s forwards;
 	animation-delay: 6s;
 }
 
 #demo2 {
-	font-family: "Raleway", sans-serif;
+	font-family: "EB Garamond";
 	opacity: 0;
 	animation: fadeIn 4s forwards;
 	animation-delay: 7s;
 }
 
 #demo3 {
-	font-family: "Raleway", sans-serif;
+	font-family: "EB Garamond";
 	opacity: 0;
 	animation: fadeIn 4s forwards;
 	animation-delay: 8s;
