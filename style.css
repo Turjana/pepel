@@ -10,7 +10,9 @@
 .from {
 	font-family: "EB Garamond";
 }
-
+p {
+	font-size:16px;
+}
 #demo1 {
 	font-family: "EB Garamond";
 	opacity: 0;
