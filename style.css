@@ -1,9 +1,9 @@
-@import url(https://db.onlinewebfonts.com/c/572a2d40c1cb6e1049aa231ee432e834?family=Shne+Breit);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
 	--sb: "Shne Breit";
 	/* Eng */
-	--asea: 'Artegra Sans Extended Alt';
+	--asea: font-family: "Inter", system-ui;
 	/* Rus + Eng */
 }
 
