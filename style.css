@@ -8,32 +8,32 @@
 }
 
 .from {
-	font-family: var(--asea);
+	font-family: "Raleway", sans-serif;
 }
 
 #demo1 {
-	font-family: var(--asea);
+	font-family: "Raleway", sans-serif;
 	opacity: 0;
 	animation: fadeIn 4s forwards;
 	animation-delay: 1s;
 }
 
 #demo-i {
-	font-family: var(--asea);
+	font-family: "Raleway", sans-serif;
 	opacity: 0;
 	animation: fadeIn 4s forwards;
 	animation-delay: 6s;
 }
 
 #demo2 {
-	font-family: var(--asea);
+	font-family: "Raleway", sans-serif;
 	opacity: 0;
 	animation: fadeIn 4s forwards;
 	animation-delay: 7s;
 }
 
 #demo3 {
-	font-family: var(--asea);
+	font-family: "Raleway", sans-serif;
 	opacity: 0;
 	animation: fadeIn 4s forwards;
 	animation-delay: 8s;
